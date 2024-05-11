@@ -39,9 +39,9 @@ VIN9 = {
     }
 }
 
-if game.Players.LocalPlayer.UserId == 3018097058 or 2799279766 then
+if game.Players.LocalPlayer.UserId ==  718907260or 718907260 then
     Status = "OWNER"
-else
+if game.Players.LocalPlayer.UserId == then
     Status = "BUYER"
 end
 
@@ -82,7 +82,7 @@ local LoadingXSX = Notif:Notify("Loading VIN9", 3, "information")
 wait(1)
 local LoadingXSX = Notif:Notify("STATUS:"..Status, 3, "information")
 
-library.title = "discord.gg/closetcheating"
+library.title = "VIN9"
 library:Introduction()
 wait(1)
 
